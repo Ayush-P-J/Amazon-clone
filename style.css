@@ -137,6 +137,13 @@
 
 /* Box 4 */
 
-
+.nav-language {
+    height: 50px;
+    width: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
 
 
