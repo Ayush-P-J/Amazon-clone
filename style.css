@@ -4,6 +4,9 @@
     border: border-box;
 
 }
+a{
+    text-decoration: none;
+}
 
 .navbar {
     height: 60px;
@@ -42,7 +45,7 @@
 .logo {
 
     background-size: cover;
-    background-image: url(logo.jpg);
+    background-image: url(logo.png);
     height: 50px;
     width: 100%;
 
@@ -332,3 +335,76 @@
     height: 115px;
     width: 113px;
 }
+
+/*Footer*/
+
+.foot-panel1 {
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-panel2 {
+    background-color: #232f3e;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.panel2-links{
+    margin: 20px 0px 20px;
+    padding: 0px 10px;
+    
+}
+
+.panel2-links p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.panel2-links a{
+    cursor: pointer;
+    
+}
+
+.foot-panel3 {
+    height: 70px;
+    background-color: #232f3e;
+    border-top: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+
+    background-image: url(logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    
+}
+
+.foot-panel4{
+    height: 80px;
+    background-color: #0f1111;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+
+}
+.panel4-links{
+    padding-top: 10px; 
+}
+.panel4-copyright{
+    padding-top: 10px;
+    
+}
+
