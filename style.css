@@ -144,6 +144,46 @@
     display: flex;
     justify-content: center;
     
+    
+}
+
+/* BOx 5 */
+
+.nav-signin {
+    height: 50px;
+    width: 136px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.sign-first {
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.sign-second {
+    font-size: 13px;
+    display: flex;
+    padding-left: 5px;
+    font-weight: bolder;
+    
+}
+
+.sign-select {
+    border: none;
+    background-color: transparent;
+    color: #cccccc;
+}
+/*Box 6*/
+
+.nav-order {
+    height: 50px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
 }
 
 
