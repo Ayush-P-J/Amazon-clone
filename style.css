@@ -269,3 +269,66 @@
     color: #007185;
     
 }
+
+/*shopping sectin*/
+
+.shopping-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+
+
+}
+
+.box {
+    
+    height: 400px;
+    width: 23%;
+    margin-top: 20px;
+    padding: 20px 0px 15px;
+    background-color: #ffffff;
+    
+}
+
+.box-img {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #007185;
+}
+.box-multi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.multi-img {
+    justify-content: space-evenly;
+    padding: 10px;
+
+    
+}
+.multi-img p {
+    margin-top: 0px;
+    font-size: 12px;
+    color: #0f1111;
+    background-size: cover;
+}
+
+.image {
+    height: 115px;
+    width: 113px;
+}
