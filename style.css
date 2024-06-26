@@ -298,9 +298,8 @@ a{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-size: cover;
-    
-    
+    background-size: cover; 
+    cursor: pointer;
 }
 
 .box-content{
@@ -321,8 +320,6 @@ a{
 .multi-img {
     justify-content: space-evenly;
     padding: 10px;
-
-    
 }
 .multi-img p {
     margin-top: 0px;
@@ -334,6 +331,7 @@ a{
 .image {
     height: 115px;
     width: 113px;
+    cursor: pointer;
 }
 
 /*Footer*/
@@ -345,7 +343,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .foot-panel2 {
