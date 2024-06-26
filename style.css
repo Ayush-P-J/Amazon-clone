@@ -32,7 +32,7 @@
 
 .nav-logo {
     height: 50px;
-    width: 100px;
+    width: 113px;
     
     
 
@@ -48,7 +48,7 @@
 
 }
 
-
+/* box2 */
 
 .nav-address {
     height: 50px;
@@ -57,7 +57,7 @@
     
 }
 
-/* box2 */
+
 
 .add-main {
     margin-left: 10px;
@@ -90,9 +90,11 @@
     width: 620px;
     justify-content: space-evenly;
     border-radius: 4px;
-
-
+    border: none;
+    
 }
+
+
 
 .search-select {
     width: 45px;
@@ -133,6 +135,10 @@
     color: #6d6666;
     font-size: 1.5rem;
     
+}
+
+.nav-search :hover {
+    border: 2px solid #febd68;
 }
 
 /* Box 4 */
@@ -186,4 +192,22 @@
     justify-content: center;
 }
 
+/*Box 7*/
 
+.nav-cart {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cart-icon {
+    font-size: 30px;
+}
+
+.cart-font {
+    font-weight: bold;
+    font-size: 15px;
+}
