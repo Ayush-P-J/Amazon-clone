@@ -68,14 +68,14 @@ a{
 }
 
 .add-first {
-    font-size: 0.7rem;
+    font-size: 12px;
     color: #cccccc;
     margin-left: 15px;
     
 }
 
 .add-second {
-    font-size: 1rem;
+    font-size: 16px;
     margin-left: 3px;
     
 }
@@ -93,7 +93,7 @@ a{
     width: 700px;
     justify-content: space-evenly;
     border-radius: 4px;
-    border: none;
+    
     
 }
 
@@ -105,18 +105,30 @@ a{
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     border: none;
-    background-color: #fcfcfc;
+    background-color: #e6e6e6;
     color: #6d6666;
     
 
 }
 
+.search-select:focus {
+    border: 2px solid #febd68;
+    text-align: left;
+
+}
+.search-select:hover {
+    background-color: #d3d3d3;
+}
+
 .search-input {
     width: 100%;
-    font-size: 1rem;
+    font-size: 16px;
     border: none;
     
 
+}
+.search-input:focus{
+    border: 1px;
 }
 
 .search-icon {
@@ -125,7 +137,7 @@ a{
     justify-content: center;
     align-items: center;
     color: #0f1111;
-    font-size: 1.5rem;
+    font-size: 24px;
 
 }
 
@@ -136,11 +148,11 @@ a{
     align-items: center;
     background-color: white;
     color: #6d6666;
-    font-size: 1.5rem;
+    font-size: 24px;
     
 }
 
-.nav-search :hover {
+.nav-search:hover {
     border: 2px solid #febd68;
 }
 
@@ -177,7 +189,7 @@ a{
     font-size: 13px;
     display: flex;
     padding-left: 5px;
-    font-weight: bolder;
+    font-weight: 700;
     
 }
 
@@ -235,7 +247,7 @@ a{
 }
 .panel-options {
     width: 70%;
-    font-size: 0.85rem;
+    font-size: 14px;
     font-weight: 500;
 
 }
@@ -296,21 +308,22 @@ a{
 
 .box-img {
     height: 300px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
     background-size: cover; 
     cursor: pointer;
 }
 
 .box-content{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .box-content p{
     margin-bottom: 20px;
     font-size: 13px;
     color: #007185;
+    cursor: pointer;
 }
 .box-multi {
     display: flex;
@@ -368,6 +381,10 @@ a{
 
 .panel2-links a{
     cursor: pointer;
+    
+}
+.panel2-links a:hover{
+    text-decoration: underline;
     
 }
 
