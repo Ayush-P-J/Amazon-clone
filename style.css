@@ -129,6 +129,7 @@ a{
 }
 .search-input:focus{
     border: 1px;
+    
 }
 
 .search-icon {
@@ -307,6 +308,11 @@ a{
     color: #007185;
     
 }
+.hero-banner a:hover {
+    color: rgb(255, 81, 0);
+    text-decoration: underline;
+    
+}
 
 /*shopping sectin*/
 
@@ -347,6 +353,11 @@ a{
     font-size: 13px;
     color: #007185;
     cursor: pointer;
+
+}
+.box-content p:hover{
+    color: rgb(255, 81, 0);
+    
 }
 .box-multi {
     display: flex;
@@ -369,6 +380,37 @@ a{
     width: 113px;
     cursor: pointer;
 }
+
+/*section*/
+
+.long-box{
+    height: 280px;
+    width: 1300px;
+    background-color: #ffffff;
+    margin: 22px;
+    margin-bottom: 0px;
+    
+}
+
+.long-box .long-inner{
+    height: 280px;
+    font-size: 21px;
+    padding: 10px 20px;
+    
+}
+.long-box .long-inner h1{
+    font-size: 26px; 
+}
+.long-box .long-inner .products{
+    overflow: auto;
+    white-space: nowrap;
+}
+.long-box .long-inner .products img{
+    height: 200px; 
+    display: inline-block;
+}
+
+
 
 /*Footer*/
 
