@@ -240,15 +240,38 @@ a{
     
 }
 
-.panel-options p {
-    display: inline;
-    margin-left: 10px;
-
+.panel-all {
+    height: 39px;
+    width: 58px;
+    
+    
 }
+.all-contents {
+    margin-top:10px ;
+    justify-content: center;
+    display: flex;
+}
+
+.panel-options p {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    height: 40px;
+    
+}
+
 .panel-options {
     width: 70%;
     font-size: 14px;
     font-weight: 500;
+    display: flex;
+
+}
+
+.options-mod {
+    padding: 10px 0.5px;
+
 
 }
 
