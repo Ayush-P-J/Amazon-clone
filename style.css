@@ -4,6 +4,9 @@
     border: border-box;
 
 }
+input:focus{
+    outline: 0px solid;
+}
 a{
     text-decoration: none;
 }
